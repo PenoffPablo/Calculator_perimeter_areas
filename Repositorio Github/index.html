@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Perimeters and areas</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="row">
+        <nav class="col">
+          <h1>Perimeters and areas calculator</h1>
+        </nav>
+      </header>
+
+      <div class="row" id="figures">
+        <h1 class="first-title">The value calculated has been: X cm</h1>
+        <div class="col p-0 m-3">
+          <div class="title">
+            <h2>Square</h2>
+          </div>
+          <h3>How many size the square sides?</h3>
+          <input
+            type="text"
+            class="input m-3"
+            id="input1"
+            placeholder="Write a number"
+          /><br />
+          <button class="btn-perimeter1 m-3 rounded">Perimeter</button>
+          <button class="btn-area1 m-3 rounded">Area</button>
+        </div>
+
+        <div class="col p-0 m-3">
+          <div class="title">
+            <h2>Triangle</h2>
+          </div>
+          <h3>How many size the triangle sides?</h3>
+          <input
+            type="text"
+            class="input m-3"
+            id="input2"
+            placeholder="Write a number"
+          /><br />
+          <input
+            type="text"
+            class="input m-3"
+            id="input3"
+            placeholder="Write a number"
+          /><br />
+          <input
+            type="text"
+            class="input m-3"
+            id="input4"
+            placeholder="Write a number"
+          /><br />
+          <button class="btn-perimeter2 m-3 rounded">Perimeter</button><br />
+          <h3>How many size the triangle base and height?</h3>
+          <input
+            type="text"
+            class="input m-3"
+            id="input5"
+            placeholder="Write a number"
+          /><br />
+          <input
+            type="text"
+            class="input m-3"
+            id="input6"
+            placeholder="Write a number"
+          /><br />
+          <button class="btn-area2 m-3 rounded">Area</button>
+        </div>
+        <div class="col p-0 m-3">
+          <div class="title">
+            <h2>Circle</h2>
+          </div>
+          <h3>How many size circle radio?</h3>
+          <input
+            type="text"
+            class="input m-3"
+            id="input7"
+            placeholder="Write a number"
+          /><br />
+          <button class="btn-perimeter3 m-3 rounded">Perimeter</button>
+          <button class="btn-area3 m-3 rounded">Area</button><br />
+          <button class="btn-diameter m-3 rounded">Diameter</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

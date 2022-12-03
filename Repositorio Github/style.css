@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(36, 49, 126);
+  text-align: center;
+  margin-bottom: 5vh;
+}
+header h1 {
+  color: white;
+}
+
+.col {
+  border: solid 2px rgb(36, 49, 126);
+  border-radius: 5px;
+}
+#figures {
+  text-align: center;
+}
+
+.title {
+  background-color: rgb(36, 49, 126);
+  color: white;
+  border: solid 1px rgb(36, 49, 126);
+}
+.col h3 {
+  font-size: 1.5em;
+}
+.input {
+  border-color: rgb(36, 49, 126);
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(36, 49, 126);
+  color: white;
+  width: 30%;
+  border: solid 1px rgb(36, 49, 126);
+  padding: 5px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgb(25, 34, 88);
+}
